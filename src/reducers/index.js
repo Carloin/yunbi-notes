@@ -10,7 +10,7 @@ const initialState = {
   isShowLayer: false,
   idShowEditer: false
 }
-
+// state数据是给组件展示出来，action是数据发生改变，然后交给reducer进行更新
 const note = (state = {}, action) => {
   switch (action.type) {
     case ADD_NOTE:
